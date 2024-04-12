@@ -80,7 +80,7 @@ to check-recovery
 end
 
 to compute-new-reproduction-rate
-  let reduction-factor 4.175 ; varies with the actual data
+  let reduction-factor 2.026171 ; varies with the actual data
   let new-reproduction-rate 6.0 / reduction-factor
   set reproduction-rate new-reproduction-rate
 end
