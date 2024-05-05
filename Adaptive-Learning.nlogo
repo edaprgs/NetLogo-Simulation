@@ -28,7 +28,7 @@ to setup
 
   create-turtles learning-activities [
     set shape get-activity-shape selected-activity
-    set color yellow   
+    set color white   
     setxy random-xcor random-ycor
   ]
   reset-ticks
